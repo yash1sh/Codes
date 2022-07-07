@@ -25,7 +25,7 @@ class HighestSubString{
         }
         System.out.println(length);
 
-
+sc.close();
 
     }
 }
