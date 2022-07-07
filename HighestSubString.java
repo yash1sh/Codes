@@ -1,3 +1,5 @@
+//Conside a string find the highest substring present in the string where char in that substring are not repeated
+
 import java.util.*;
 class HighestSubString{
     public static void main(String[] args) {
