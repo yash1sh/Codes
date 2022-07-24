@@ -44,7 +44,7 @@ public class LinkedListUsingLibrary {
                         else
                             System.out.println(value+" does not contains");
                         break;
-                        case 4: int first=0;
+                case 4: int first=0;
                         int last=list.size()-1;
                         
                         while(first<last)
