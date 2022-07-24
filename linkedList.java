@@ -23,7 +23,7 @@ class listNode{
 }
 
 class list{
-    private listNode firstNode;
+    listNode firstNode;
     private listNode lastNode;
     private String name;
 
@@ -102,7 +102,7 @@ class list{
             listNode Current=firstNode;
             while(Current!=null)
             {
-                System.out.print(Current.name);
+                System.out.print(Current.name+"\t");
                 Current=Current.nextNode;
             }
         }
